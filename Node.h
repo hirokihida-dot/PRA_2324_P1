@@ -12,8 +12,8 @@ class Node{
             Node(T data, Node<T>* next=nullptr): data(data), next(next){}
             //Operador de salida para imprirmir el nodo
             friend std::ostream& operator<<(std::ostream&out, const Node<T> &node){
-            std::cout<<node.data;
-            return std::cout;
+                std::cout<<node.data;
+                return std::cout;
             }
  };
 
